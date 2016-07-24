@@ -2,6 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center_horizontal"
@@ -63,7 +64,7 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="100dp"
         android:layout_gravity="center_horizontal">
 
         <TextView
@@ -84,8 +85,8 @@
             android:layout_alignParentTop="true"
             android:layout_toEndOf="@+id/textView4"
             android:layout_toLeftOf="@+id/button2"
-            android:layout_toStartOf="@+id/button2"
-            android:layout_toRightOf="@+id/textView4" />
+            android:layout_toRightOf="@+id/textView4"
+            android:layout_toStartOf="@+id/button2" />
 
         <Button
             android:id="@+id/button2"
